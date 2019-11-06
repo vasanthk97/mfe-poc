@@ -1,0 +1,48 @@
+module.exports = {
+    globals: {
+        MyGlobal: true
+    },
+    parserOptions: {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    env: {
+        "browser": true,
+        "node": true
+    },
+    rules: {
+        "semi": "error",
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "curly": "error",
+        "no-console": "off",
+        "array-callback-return": 2,
+        "eqeqeq": 2,
+        "max-statements-per-line": [
+            2,
+            {
+                "max": 1
+            }
+        ],
+        "max-nested-callbacks": [
+            2,
+            2
+        ],
+        "max-depth": [
+            2,
+            {
+                "max": 5
+            }
+        ],
+        "no-eval": 2,
+        "no-return-assign": 2,
+        "no-param-reassign": 2,
+        "no-var": 2,
+        "prefer-const": 2
+    }
+};
