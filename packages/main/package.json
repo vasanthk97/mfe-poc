@@ -1,0 +1,31 @@
+{
+  "name": "main",
+  "version": "1.0.1",
+  "description": "> TODO: description",
+  "author": "vasanth <vasanth.kumar@zemosolabs.com>",
+  "homepage": "https://github.com/vasanthk97/mfe-poc#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "dependencies": {
+    "pkg1": "^1.0.1"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasanthk97/mfe-poc.git"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "build": "cross-env NODE_ENV=production webpack",
+    "test": "jest --watchAll --coverage"
+  },
+  "bugs": {
+    "url": "https://github.com/vasanthk97/mfe-poc/issues"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "pkg1",
+  "version": "1.0.1",
+  "description": "> TODO: description",
+  "author": "vasanth <vasanth.kumar@zemosolabs.com>",
+  "homepage": "https://github.com/vasanthk97/mfe-poc#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasanthk97/mfe-poc.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "main": "lib/pkg1.ts",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/vasanthk97/mfe-poc/issues"
+  }
+}
