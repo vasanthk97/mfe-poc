@@ -1,6 +1,6 @@
 {
   "name": "main",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "vasanth <vasanth.kumar@zemosolabs.com>",
   "homepage": "https://github.com/vasanthk97/mfe-poc#readme",
@@ -11,7 +11,7 @@
     "test": "__tests__"
   },
   "dependencies": {
-    "pkg1": "^1.0.1"
+    "pkg1": "^1.0.2"
   },
   "files": [
     "lib"
